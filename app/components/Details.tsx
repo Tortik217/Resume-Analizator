@@ -39,10 +39,7 @@ const ScoreBadge = ({ score }: { score: number }) => {
   );
 };
 
-const CategoryHeader = ({
-                          title,
-                          categoryScore,
-                        }: {
+const CategoryHeader = ({title, categoryScore,}: {
   title: string;
   categoryScore: number;
 }) => {
